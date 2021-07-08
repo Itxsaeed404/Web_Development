@@ -1,0 +1,304 @@
+
+body{background-color:#f4f4f4;
+
+/* 1st way*/
+
+font-family: arial, helvetica, sans-serif;
+font-size: 16px;
+font-weight: normal;
+
+
+
+/* 2nd way same as above
+
+font: normal 16px arial ,helvetica, sans-serif;
+
+*/
+
+line-height: 1.6em;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color: #66CDAA;
+}
+a:active{
+	color : green;
+}
+
+
+a:visited{
+	color: blue;
+}
+	color: #000000;
+}
+
+
+
+
+.container{
+width: 80%;
+margin: auto;
+
+}
+
+/* for globel botton */
+
+.button{
+	background-color: #f4f4f4;
+	border-radius: 5px;
+	color: #000000;
+	padding: 10px 15px;
+	border: none;
+}
+
+.button:hover{
+	background-color: #D5F5E3 ;
+	border: 1px #2C3E50 solid;
+}
+.button:active{
+	color: #85C1E9;
+}
+
+.button:visted{
+	color: green;
+}
+
+.clr{
+	clear: both;
+}
+.my-website{
+	font-family: cursive;
+	text-align: center;	
+	background-color: #F3917C ;
+	border: 2px solid #F3917C;
+
+}
+
+
+
+
+.box-1{
+
+		background-color: #333 ;
+	color: #fff;
+	border-right: 5px red solid;
+	border-left: 5px red solid;
+	border-bottom: 5px red solid;
+	border-top: 5px red solid;
+
+	/* same as above
+
+	border:  5px red solid;
+
+	*/
+
+	border-width: 3px;
+	border-bottom-width: 10px;
+	border-bottom-style: dotted;
+
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+
+
+	/* same as above
+
+	pading: 20px;
+
+	*/
+
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-left: 20px ;
+	margin-bottom: 10px;
+}
+
+.box-1 h1{
+
+font-family: serif;
+font-weight: 800;
+font-style: italic;
+text-decoration: underline;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+word-spacing: 1em;
+
+
+
+}
+.box-2{
+	background-color: #6495ED;
+	border:5px dotted #000000;
+	padding: 20px;
+
+	margin: 20px;
+}
+
+.categories{
+	border: 3px #fe2f23 solid;
+	padding:  10px;
+	margin: 20px;
+	border-radius: 20px;
+	background-color: #728FCE
+}
+
+.categories h2{
+
+	text-align: center;
+}
+.categories ul{
+padding: 5px;
+padding-left: 20px;
+background-color: #728FCE
+list-style: none;
+}
+
+.categories li{
+	background-color: #728FCE;
+	padding-left: 10px;
+	padding-Right: 10px;
+	border-bottom: dotted 1px #ccc;
+	list-style-image: url('images/check.png');
+}
+
+
+
+.my-form{
+	background-color: #B0E0E6;
+	padding : 30px;
+	border: 5px #87CEEB solid;
+	border-radius: 10px;
+	margin: 20px;
+
+}
+
+.my-form .form-group{
+	padding-bottom: 15px;
+}
+.my-form label{
+	display: block;
+}
+
+
+.my-form input[type="number"], .my-form textarea{
+	padding: 8px;
+	width: 100%;
+}
+
+.my-form input[type="text"], .my-form textarea{
+	padding: 8px;
+	width: 100%;
+}
+
+.my-form input[type="submit"]{
+	background-color: #333;
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 5px;
+
+}
+
+.block{
+	font-family: cursive;
+	font-size: 15px;
+	float: left; 
+	width: 28.3%;
+	border: 2px #34495E solid;
+	background-color: #AED6F1 ;	
+	border-radius: 8px;
+	
+	margin-left: 60px;
+	padding: 3px;
+	box-sizing: border-box;
+	}
+
+	.block h3{
+		text-align: center;
+	}
+	.block p{
+		text-align: center;
+	}
+
+	#main-block{
+		float: left;
+		width: 70%;
+		margin: 20px;
+		padding: 20px;
+		border:5px dotted #000000;
+		box-sizing: border-box;
+	}
+
+	#sidebar{
+		float: right;
+		width: 20%;
+		background-color: #000000 ;
+		color: #ffffff;
+		margin-right: 100px;
+		padding: 20px;
+		margin-top: 20px;
+		box-sizing: border-box;
+	}
+
+	.p-box{
+
+		width: 800px;
+		height: 500px;
+		border: 2px solid #000;
+		margin-top: 30px;
+		position: relative;
+		background-image:url(images/lightimage.jpg);
+		background-repeat: no-repeat;
+		background-position: 100px 200px;
+		background-position:center top	 ;
+
+	}
+
+	.p-box h1{
+		position: absolute;
+		top: 200px;
+		left: 200px;
+
+	}
+	.p-box h2{
+
+		position: absolute ;
+		bottom: 20px;
+		right: 100px;
+	}
+
+	.fix-me{
+
+		position: fixed;
+		margin: 0px ;
+		top: 600px;
+		background-color: red;
+		color: #000000;
+
+
+	}
+
+	.my-list li:first-child{
+		background: green;
+	}
+		.my-list li:last-child{
+		background: red;
+	}
+		}
+		.my-list li:nth-child(5){
+		background: yellow;
+	}
+		}
+		.my-list li:nth-child(even){
+		background: yellow;
+	}
+
+
+
+
